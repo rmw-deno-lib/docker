@@ -20,7 +20,7 @@ curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh &&\
 apt-get autoclean -y &&\
 rm -rf /var/lib/apt/lists/
 
-RUN npm install -g rustwasmc
+#RUN npm install -g rustwasmc
 
 
 CMD ['/pkg/build.sh']

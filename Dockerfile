@@ -11,7 +11,7 @@ COPY .bashrc /root/
 RUN \
 apt-get update &&\
 apt-get install -y \
-curl nodejs yarnpkg apt-utils libcurl3-gnutls \
+build-essential curl nodejs yarnpkg apt-utils libcurl3-gnutls \
 libllvm10 &&\
 curl https://sh.rustup.rs -sSf | sh -s -- -y &&\
 source $HOME/.cargo/env &&\

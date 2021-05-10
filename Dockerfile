@@ -1,7 +1,8 @@
-ENV RUST_VERSION=1.50.0
-
 FROM ubuntu:groovy
 SHELL ["/bin/bash", "-c"]
+
+ENV RUST_VERSION=1.50.0
+
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update &&\

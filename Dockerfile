@@ -23,4 +23,4 @@ rm -rf /var/lib/apt/lists/
 #RUN npm install -g rustwasmc
 
 
-CMD ['/pkg/build.sh']
+CMD ['/pkg/dist.sh']

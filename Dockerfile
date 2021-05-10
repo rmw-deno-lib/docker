@@ -9,6 +9,7 @@ ENV DEBIAN_FRONTEND noninteractive
 COPY .bashrc /root/
 
 RUN \
+echo insecure >> ~/.curlrc &&
 apt-get update &&\
 apt-get install -y --no-install-recommends \
 curl nodejs yarn libcurl3-gnutls \

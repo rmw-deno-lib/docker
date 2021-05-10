@@ -1,4 +1,4 @@
-FROM ubuntu:hirsute
+FROM ubuntu:groovy
 SHELL ["/bin/bash", "-c"]
 ENV DEBIAN_FRONTEND noninteractive
 
